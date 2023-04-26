@@ -9,8 +9,8 @@
   },
   "scripts": {
     "clean": "rimraf dist/*",
-    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "markdown-it-katex": "^2.0.3"
