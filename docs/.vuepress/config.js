@@ -9,10 +9,9 @@ module.exports = {
     search: false,
     nav: [
       { text: "Home", link: "/" },
-      // { text: "About", link: "/about/" },
-      // { text: "Projects", link: "/projects/" },
-      // { text: "Guide", link: "/guide/" },
-      // { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+      { text: "Projects", link: "/projects/" },
+      { text: "Skills", link: "/skills/" },
+      { text: "GitHub", link: "https://github.com/Lix1993/lix1993.github.io" }
     ],
     sidebar: {
       '/guide/': genSidebarConfig('Guide')

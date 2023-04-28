@@ -1,5 +1,6 @@
 ---
 pageClass: home-page
+navbar: false
 # some data for the components
 
 name: 李星
@@ -12,16 +13,21 @@ socials:
 
 cv: 
 bio: 生物数据 at DeepbioGroup
+mobile: 17184091301
 email: lix930701@gmail.com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
-
 目前在 [DeepbioGroup](https://www.deepbiogroup.com/) 做生物数据。
 
+## 技能
+Linux、数据库使用    
+Python    
+生信数据库、软件使用
 
+[→ 说明](/skills/)
 
 ## 工作经历
 - **Deepbio** <br/>
@@ -63,9 +69,7 @@ SNP芯片基因分型
 
   **整理生物实验使用的产品的特有属性**
   
-  整理生物实验使用的产品的特有属性
-
-  [[Link](https://www.deepbiogroup.com/product)]
+  整理生物实验使用的产品的特有属性  [[Deepbiogroup](https://www.deepbiogroup.com/product)]
 
 </ProjectCard>
 
