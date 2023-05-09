@@ -6,5 +6,6 @@ module.exports = {
         { text: "Skills", link: "/skills/" },
         { text: "GitHub", link: "https://github.com/Lix1993/lix1993.github.io" }
     ],
+    displayAllHeaders: true,
     lastUpdated: 'Last Updated'
 } 

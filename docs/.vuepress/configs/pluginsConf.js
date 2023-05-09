@@ -12,6 +12,8 @@ module.exports = [
             'ga': 'G-ETPZ81N14C'
         }
     ],
-    ["vuepress-plugin-auto-sidebar", {}],
-
+    [
+        "vuepress-plugin-auto-sidebar",
+        {}
+    ],
 ]
