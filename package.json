@@ -5,6 +5,7 @@
   "author": "Li Xing",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.9",
     "vuepress": "^1.9.9"
   },
   "scripts": {
