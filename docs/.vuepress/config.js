@@ -1,7 +1,10 @@
 module.exports = {
-  title: "Li Xing",
-  description: "The description of the site.",
-  head: [["link", { rel: "icon", href: `/logo.png` }]],
+  title: "简历 for Li Xing",
+  description: "简历 for Li Xing",
+  head: [
+    ["meta", { name: "keywords", content: '简历' }],
+    // ["link", { rel: "icon", href: `/logo.png` }],
+  ],
   base: "/",
   dest: "./dist",
 
