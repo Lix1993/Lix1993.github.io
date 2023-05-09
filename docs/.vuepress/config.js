@@ -31,7 +31,14 @@ module.exports = {
         message: "New content is available.",
         buttonText: "Refresh"
       }
-    }]
+    }],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-ETPZ81N14C'
+      }
+    ]
+
   ],
   markdown: {
     // options for markdown-it-anchor
