@@ -1,10 +1,10 @@
+const nav = require("../nav.js");
+
 module.exports = {
     search: false,
     nav: [
         { text: "Resume", link: "/" },
-        { text: "Projects", link: "/projects/" },
-        { text: "Skills", link: "/skills/" },
-    ],
+    ].concat(nav),
     displayAllHeaders: true,
     lastUpdated: 'Last Updated'
 } 

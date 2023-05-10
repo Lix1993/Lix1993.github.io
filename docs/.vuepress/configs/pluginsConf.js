@@ -14,6 +14,10 @@ module.exports = [
     ],
     [
         "vuepress-plugin-auto-sidebar",
-        {}
+        {
+            sort: {
+                readmeFirstForce: true
+            }
+        }
     ],
 ]

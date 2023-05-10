@@ -12,10 +12,12 @@
   },
   "scripts": {
     "clean": "rimraf dist/*",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:nav": "vuepress nav docs"
   },
   "dependencies": {
-    "markdown-it-katex": "^2.0.3"
+    "markdown-it-katex": "^2.0.3",
+    "serve": "^14.2.0"
   }
 }
