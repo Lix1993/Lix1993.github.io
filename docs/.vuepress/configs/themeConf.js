@@ -30,5 +30,5 @@ module.exports = {
     search: false,
     nav: navbar,
     displayAllHeaders: true,
-    lastUpdated: 'Last Updated'
+    lastUpdated: '更新时间'
 } 

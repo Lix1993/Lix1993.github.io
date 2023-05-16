@@ -13,4 +13,10 @@ module.exports = {
   themeConfig: themeConf,
   plugins: pluginConf,
   markdown: markdownConf,
+
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+    },
+  }
 };
