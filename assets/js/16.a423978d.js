@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{303:function(t,s,n){"use strict";n.r(s);var i=n(17),e=Object(i.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("h1",{attrs:{id:"生信数据库"}},[this._v("生信数据库")]),this._v(" "),t("p",[this._v("这里是使用过的数据库")])])}),[],!1,null,null,null);s.default=e.exports}}]);
